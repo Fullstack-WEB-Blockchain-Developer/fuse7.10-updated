@@ -11,10 +11,10 @@ const routes = [
   // ...FuseUtils.generateRoutesFromConfigs(routeConfigs, ['admin','staff','user']),
   // The individual route configs which has auth option won't be overridden.
   ...FuseUtils.generateRoutesFromConfigs(routeConfigs, null),
-  {
-    path: '/',
-    element: <Navigate to="example" />,
-  },
+  // {
+  //   path: '/',
+  //   element: <Navigate to="example" />,
+  // },
   {
     path: 'loading',
     element: <FuseLoading />,

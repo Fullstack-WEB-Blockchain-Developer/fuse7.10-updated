@@ -1,0 +1,33 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  // "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "yaml.schemas": {
+    "file:///c%3A/Users/Administrator/.vscode/extensions/atlassian.atlascode-2.10.9/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml",
+    "file:///c%3A/Users/IVAN/.vscode/extensions/atlassian.atlascode-2.9.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml",
+    "https://json.schemastore.org/eslintrc.json": "file:///e%3A/TASK/10_26_Cltg/fe-agent/halleyapi.yaml"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "svg.preview.background": "transparent",
+  "settingsSync.ignoredExtensions": [
+    "42Crunch.vscode-openapi",
+    "bradlc.vscode-tailwindcss",
+    "burkeholland.simple-react-snippets",
+    "styled-components.vscode-styled-components",
+    "xabikos.ReactSnippets"
+  ]
+}

@@ -11,12 +11,28 @@ i18next.addResourceBundle('ar', 'examplePage', ar);
 const ExampleConfig = {
   settings: {
     layout: {
-      config: {},
+      config: {
+        navbar: {
+          display: false,
+        },
+        toolbar: {
+          display: false,
+        },
+        footer: {
+          display: false,
+        },
+        leftSidePanel: {
+          display: false,
+        },
+        rightSidePanel: {
+          display: false,
+        },
+      },
     },
   },
   routes: [
     {
-      path: 'example',
+      path: '/',
       element: <Example />,
     },
   ],

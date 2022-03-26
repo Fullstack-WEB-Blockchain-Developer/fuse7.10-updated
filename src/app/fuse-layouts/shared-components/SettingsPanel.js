@@ -100,7 +100,7 @@ function SettingsPanel() {
 
   return (
     <>
-      <Root id="fuse-settings-schemes" className="buttonWrapper">
+      <Root id="fuse-settings-schemes" className="buttonWrapper hidden">
         <Button
           className="settingsButton min-w-40 w-40 h-40 m-0"
           onClick={() => handleOpen('settings')}
