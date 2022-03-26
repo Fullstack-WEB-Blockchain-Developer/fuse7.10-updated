@@ -19,7 +19,7 @@
 .eslintcache
 
 /.idea
-/.vscode
+# /.vscode
 
 /src/styles/tailwind.css
 
@@ -34,3 +34,5 @@ yarn-error.log*
 !.yarn/sdks
 !.yarn/versions
 .pnp.*
+
+.history
